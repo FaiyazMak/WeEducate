@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1050px) {
+    /* navbar-- */
+    .navbar{
+        flex-direction: column;
+        height: 400px;
+        transition: all 0.5s ease-out;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        margin: 0px 0px;
+    }
+
+    .nav-list li{
+        padding: 22px 15px;
+    }
+    
+    .nav-list li a{
+        padding: 0px 10px;
+    }
+
+    .logo{
+        margin: 0px 5px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    
+    .logo img{
+        width: 50px;
+        border: 2px solid white;
+    }  
+    
+    /* right navbar-- */
+    .rightNav{
+        text-align: center;
+        width: 60%;
+        padding-right: 0px;
+    }
+
+    #search{
+        padding: 4px;
+    }
+    
+    .btn-sm{
+        padding: 4px 10px;
+        margin: 7px 5px;
+    }
+
+    /* burger-- */
+    .burger{
+        display: block;
+    }
+
+    /* responsive class for hamburger-- */
+    .h-nav-resp{
+        height: 62px;
+    }
+
+    .v-class-resp{
+        /* opacity: 0;  */
+        /* according to harrybhai */
+        display: none; 
+        /* self made */
+    }
+
+    /* first section-- */
+    .firstSection{
+        height: 80vh;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+    
+    .firstHalf{
+        width: 75%;
+    }
+    
+    .text-big{
+        font-size: 35px;
+        padding: 4px 0px;
+    }
+    
+    .text-small{
+        font-size: 18px;
+        padding: 4px 0px;
+    }
+
+    /* second section-- */
+    .section{
+        flex-direction: column-reverse;
+        padding: 10px 0px;
+    }
+    
+    .paras{
+        padding: 0px;
+    }
+}
